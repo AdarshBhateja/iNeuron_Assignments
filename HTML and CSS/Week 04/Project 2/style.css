@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background-color: #F0F4F5;
+    overflow: hidden;
+}
+
+/* Nav Bar */
+
+.nav-bar{
+    height: 10vh;
+    margin: 1% 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-bar>ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.nav-bar>ul>li{
+    margin-right: 80px;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.nav-bar>ul>li:first-child{
+    color: #20BC7E;
+}
+
+/* Main Section */
+
+.hero-section{
+    display: flex;
+    flex-direction: row;
+    /* height: 30vh;  explain */
+    /* background-color: aqua; */
+}
+
+
+.left-section{
+    width: 60%;
+    /* background-color: beige; */
+    padding-left: 5%;
+    padding-right: 10%;
+}
+
+.right-section{
+    width: 40%;
+    padding-left: 10%;
+    /* background-color: aquamarine; */
+}
+
+/* Left Section */
+
+.top-angle{
+    position: relative;
+    width: 30px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.bottom-angle{
+    position: absolute;
+    width: 30px;
+    margin-left: 42.5%;
+}
+
+h1{
+    font-size: 93px;
+    margin-bottom: 40px;
+    line-height: 110px;
+}
+
+p{
+    color: #7C7E93;
+    font-size: 26px;
+    margin-bottom: 30px;
+    line-height: 35px;
+}
+
+button{
+    background-color: #20BC7E;
+    color: white;
+    border: none;
+    padding: 25px 70px;
+    font-size: 40px;
+    font-weight: 700;
+    border-radius: 70px;
+}
+
+.mouse{
+    position: absolute;
+    margin-left: 20%;
+    margin-top: 2%;
+    width: 50px;
+}
+
+.s-scope{
+    position: relative;
+    z-index: -1;
+    top: -720px;
+    left: 35%;
+    width: 90%;
+}
+
+/* Right Section */
+
+.green-box{
+    position: absolute;
+   z-index: -3;
+   width: 34%;
+   bottom: 30px;
+   right: 30px;
+}
+
+.yellow-box{
+    position: absolute;
+    margin-top: 10%;
+    margin-right: 100%;
+    width: 570px;
+    z-index: -2;
+   
+}
+
+.doctor{
+   position: absolute;
+    right: 20px;
+    bottom: 0;
+    width: 33%;
+}
