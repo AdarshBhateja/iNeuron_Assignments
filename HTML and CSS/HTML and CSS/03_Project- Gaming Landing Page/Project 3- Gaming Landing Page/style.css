@@ -369,6 +369,7 @@ ul{
     background-color: black;
     background-repeat: no-repeat;
     background-size: contain;
+    background-position: center center;
 }
 
 .get-started-content{
