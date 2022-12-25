@@ -1,0 +1,447 @@
+*{padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.container{
+    width: 1440px;
+    /* height: 70vh; */
+    margin: 0px auto;
+    /* background-color: rgb(32, 32, 32); */
+    overflow: hidden;
+    padding: 0 80px;
+}
+
+.header{
+    background-image: url(./Assets/Photos/futuristic-bg.png);
+    /* background-color: grey; */
+    box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.549);
+    width: 100%;
+}
+
+/* nav section */
+.nav{
+    padding: 1.8% 5%;
+    color: whitesmoke;
+    /* background: blueviolet; */
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+}
+
+ul{
+    list-style: none;
+    /* background: green; */
+    display: flex;
+    /* align-items: center; */
+    gap: 50px;
+    flex-grow: 1;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.sign-up-btn{
+    background: #F4694C;
+    padding: 13px 30px;
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: 16px;
+    border: none;
+}
+
+.nav-right{
+    /* background: goldenrod; */
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+/* hero section */
+.hero{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.hero-left{
+    margin-top: 100px;
+    color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding-bottom: 120px;
+}
+
+.hero-left h1{
+    font-size: 3rem;
+    line-height: 4.3rem;
+}
+
+.grey-p{
+    color: rgb(153, 152, 152);
+    line-height: 1.7rem;
+}
+
+.hero-left button:last-child{
+    background: none;
+    border: 2px solid whitesmoke;
+    margin-left: 20px;
+}
+
+.hero-right{
+    position: relative;
+    /* background-color: aquamarine; */
+    white-space: nowrap;
+    display: flex;
+    flex-direction: column; 
+    justify-content: flex-end;
+    padding-bottom: 50px;
+}
+
+.hero-right div{
+    color: whitesmoke;
+    display: flex;
+    flex-direction: row;
+    /* background-color: grey; */
+    gap: 20px;
+    align-items: flex-start;
+}
+
+.hero-right div h1{
+    font-weight: 500;
+    line-height: 2.2rem;
+    position: relative;
+    top: -10%;
+}
+
+.hero-right div img:last-child{
+    align-self: flex-end;
+    margin-left: 40px;
+}
+
+/* games list */
+.games-list{
+    margin-top: 14%;
+}
+
+.heading1{
+    padding-bottom: 1rem;
+    text-align: center;
+    font-weight: 800;
+    line-height: 3.5rem;
+    font-size: 2.5rem;
+}
+
+.games-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    /* background-color: #F4694C; */
+}
+
+.games-container{
+    background-image: url(./Assets/Photos/image\ 2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 3rem 0;
+    width: 300px;
+    height: 350px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.g-cont-blur{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    align-items: center;
+    backdrop-filter: blur(50px);
+    background-color: rgba(68,72,74,0.177);
+}
+
+.g-right button{
+    padding: 10px 15px;
+    font-weight: 300;
+}
+
+.g-left{
+    color: whitesmoke;
+    display: flex;
+    flex-direction: column; 
+    gap: 10px;
+    line-height: normal;
+    text-align: left;
+}
+
+.g-left h3{
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+
+.g-left p{
+    color: #989A9A;
+    font-weight: 400;
+}
+
+.games-container:nth-child(2){
+    background-image: url(./Assets/Photos/image\ 3.png);
+}
+
+.games-container:nth-child(3){
+    background-image: url(./Assets/Photos/image\ 4.png);
+}
+
+.games-container:last-child{
+    background-image: url(./Assets/Photos/Rectangle\ 56.png);
+}
+
+/* Game Episodes */
+.game-episode{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    /* background-color: aquamarine; */
+    gap: 100px;
+    text-align: left;
+    height: 100vh;
+    align-items: center;
+}
+
+.ep-left{
+    /* background-color: blue; */
+    flex-basis: 40%;
+    /* background-color: azure; */
+    overflow: hidden;
+
+}
+
+.ep-left img{
+    max-width: 110%;
+    height: 23rem;
+}
+
+.ep-right{
+    /* background-color: bisque; */
+    flex-basis: 50%;
+}
+
+.ep-right h1{
+    text-align: left;
+}
+
+.ep-right div button:last-child{
+    background: none;
+    border: 1px solid #F4694C;
+    margin-left: 20px;
+    color: #F4694C;
+    margin-top: 40px;
+}
+
+/* downlaod page */
+.download-page{
+    margin-bottom: 12%;
+}
+
+.download-head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.d-left-head h1{
+    text-align: left;
+}
+
+.d-right-head span{
+    padding: 1.2rem 1.1rem;
+    background: #fcd0c6;
+    margin-right: 10px;
+}
+
+.d-right-head span:last-child{
+    background: #F4694C;
+}
+
+.download-container{
+    position: relative;
+    /* background-color: aquamarine; */
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 6rem;
+}
+
+.download-box{
+    display: flex;
+    gap: 2rem;
+    width: 45%;
+    /* background-color: cadetblue; */
+}
+
+.d-box-left{
+    width: 220px;
+    overflow: hidden;
+}
+
+.d-box-left img{
+    width: 100%;
+}
+
+.d-box-right{
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+.d-box-right h1{
+    font-size: 1.8rem;
+    text-align: left;
+}
+
+.d-box-right h3{
+    color: #F4694C;
+}
+
+.d-box-right button{
+    width: fit-content;
+}
+
+/* Top games page */
+.top-games{
+    background-color: black;
+    background-image: url(./Assets/Icons/GAMES\ OF\ THE\ WORLD.svg);
+    background-repeat: no-repeat;
+    background-position: 100% 50%;
+}
+
+.top-games div h1{
+    font-size: 3rem;
+    line-height: 4.3rem;
+    color: whitesmoke;
+    text-align: center;
+    margin: 50px 0;
+}
+
+.top-games-container{
+    display: flex;
+    justify-content: flex-start;
+    gap: 50px;
+    margin-bottom: 100px;
+}
+
+.top-games-container>div>img{
+    width: 420px;
+}
+
+.tgc-right{
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    padding-top: 50px;
+    /* background-color: aquamarine; */
+    
+}
+
+.tgc-right-bottom{
+    display: flex;
+    gap: 40px;
+}
+
+.tgc-right-bottom img{
+    width: 350px;
+}
+
+.tgc-right-bottom img:last-child{
+    align-self: flex-end;
+}
+
+/* get started page */
+.get-started{
+    background-image: url(./Assets/Photos/Rectangle\ 606.png);
+    text-align: center;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.7);
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.get-started-content{
+    padding: 8%;
+}
+
+.get-started h1{
+    font-size: 3rem;
+    line-height: 4.3rem;
+    color: whitesmoke;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.get-started p{
+    margin-bottom: 40px;
+}
+
+/* footer page */
+.last-page{
+    background: black;
+}
+
+.footer{
+    display: flex;
+    gap: 100px;
+}
+
+.left-footer img{
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+.left-footer p{
+    margin-bottom: 30px;
+}
+
+.right-footer{
+    color: whitesmoke;
+}
+
+table{
+    text-align: left;
+    border-spacing: 50px 0;
+}
+
+td{
+    color: rgb(153, 152, 152);
+    padding: 10px 30px;
+}
+
+th{
+    padding: 15px 30px;
+}
+
+hr{
+   height: 1px;  
+   border: none;
+   background-color: #3A3E47;
+   margin-top: 40px;
+}
+
+.blue-footer{
+    width: 100%;
+    height: 80px;
+    background: #000611;
+}
+
+
+
+
+
+
+
+
+
