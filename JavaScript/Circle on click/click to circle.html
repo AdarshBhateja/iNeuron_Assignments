@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <style>
+        body{
+            background-color: black;
+        }
+    </style>
+
+    <script>
+        document.addEventListener("click", (event) => {
+  var circle = document.createElement("div");
+  circle.style.width = "10px";
+  circle.style.height = "10px";
+  circle.style.borderRadius = "50%";
+  circle.style.background = "white";
+  circle.style.position = "absolute";
+  circle.style.left = event.clientX + "px";
+  circle.style.top = event.clientY + "px";
+  document.body.appendChild(circle);
+});
+    </script>
+</body>
+</html>
