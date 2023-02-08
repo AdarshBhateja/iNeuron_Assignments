@@ -31,5 +31,8 @@ console.log(avg)
 // range max-min
 console.log(`Range is ${maxAge-minAge}`)
 
+// compare values
+console.log(Math.abs(`${minAge-avg}`));
+console.log(Math.abs(`${maxAge-avg}`));
 
 
